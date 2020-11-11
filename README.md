@@ -1,18 +1,24 @@
 # live-build-interface
 A build system interface for Debian Live Build.
 
-### dependencies
+## default system
+Debian Buster (amd64)
 
-```live-build```
+## configuring live builds
+Changes made to the configurtion files within *Resources/Config-Templates/includes.chroot/* will become the corresponding `/opt`, `/etc`, and `/home` folders for newly created builds.
 
-```terminator```
+## dependencies
 
-```espeak```
+`live-build` # live-build-interface is an interface for this package
 
-### references
+`terminator` # allows other terminals to be launched
 
-```https://www.debian.org/devel/debian-live/```
+`espeak` # used for announcing a completed build
 
-```https://manpages.debian.org/testing/live-build/live-build.7.en.html```
+## references
 
-```https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html```
+`https://www.debian.org/devel/debian-live/`
+
+`https://manpages.debian.org/testing/live-build/live-build.7.en.html`
+
+`https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html`
