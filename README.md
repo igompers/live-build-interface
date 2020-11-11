@@ -6,7 +6,8 @@ The default system is designed to provide a number of useful packages from the D
 The build system interface allows ease of deployment across builds facilitating unit testing, and an organized development process.
 
 ## default system
-os: Debian Buster (amd64), gtk theme: Adawai Dark
+os: Debian Buster (amd64)
+gtk theme: Adawai Dark
 
 packages:
 > gimp
