@@ -1,8 +1,53 @@
 # live-build-interface
 A build system interface for Debian Live Build.
 
+The default system is designed to provide a number of useful packages from the Debian repository within a window manager (i3) with customized appearance settings to achieve a light-weight, conveinent, and efficient version of Debian Linux.
+
+The build system interface allows ease of deployment across builds facilitating unit testing, and an organized development process.
+
 ## default system
-Debian Buster (amd64)
+os: Debian Buster (amd64), gtk theme: Adawai Dark
+
+packages:
+> gimp
+iotop
+rfkill
+ufw
+apt-transport-https
+ca-certificates
+vnstat
+vim
+emacs
+nano
+gparted
+lightdm
+i3
+i3blocks
+tango-icon-theme
+lxappearance
+gtk-chtheme
+deepin-screenshot
+brasero
+evolution
+libreoffice
+abook
+thunar
+arandr
+rsync
+qrencode
+pandoc
+pelican
+apachetop
+pavucontrol
+feh
+zathura
+xpdf
+xterm
+zip
+p7zip
+firefox-esr
+chromium
+lynx
 
 ## configuring live builds
 Changes made to the configurtion files within *Resources/Config-Templates/includes.chroot/* will become the corresponding `/opt`, `/etc`, and `/home` folders for newly created builds.
