@@ -3,7 +3,7 @@ A build system interface for Debian Live Build.
 
 The default system is designed to provide a number of useful packages from the Debian repository within a window manager (i3) with customized appearance settings to achieve a light-weight, conveinent, and efficient version of Debian Linux.
 
-live-build-interface allows ease of deployment across builds facilitating unit testing, and an organized development process.
+*live-build-interface* allows ease of deployment across builds facilitating unit testing, and an organized development process.
 
 ## default system
 os: Debian Buster (amd64)
