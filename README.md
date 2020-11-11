@@ -3,9 +3,11 @@ A build system interface for Debian Live Build.
 
 ### dependencies
 
-- live-build
-- terminator 
-- espeak
+```live-build```
+
+```terminator```
+
+```espeak```
 
 ### references
 
