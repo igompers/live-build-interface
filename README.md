@@ -58,6 +58,8 @@ Changes made to the configurtion files within *Resources/Config-Templates/includ
 
 Within the `Bin/` directory is a script containing commands for virtualizing live system images, including the following: `$ qemu-system-x86_64 --vga virtio -accel kvm -m 1024 -boot d -cdrom live-image-amd64.hybrid.iso` **Must be run within the folder containing *live-image-amd64.hybrid.iso***
 
+Additional depencies required: `qemu-kvm`, `virt-viewer`
+
 ## dependencies
 
 `live-build` # live-build-interface is an interface for this package
