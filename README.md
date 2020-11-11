@@ -54,6 +54,10 @@ lynx
 ## configuring live builds
 Changes made to the configurtion files within *Resources/Config-Templates/includes.chroot/* will become the corresponding `/opt`, `/etc`, and `/home` folders for newly created builds.
 
+## testing builds
+
+Within the *Bin/* directory is a script containing commands for virtualizing live system images, the following command is the simplest: `$ qemu-system-x86_64 --vga virtio -accel kvm -m 1024 -boot d -cdrom live-image-amd64.hybrid.iso` 
+
 ## dependencies
 
 `live-build` # live-build-interface is an interface for this package
